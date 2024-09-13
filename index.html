@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>OZON Test</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="progress">
+        <div class="active-progress"></div>
+      </div>
+      <div class="control">
+        <div>
+          <input id="value" type="number" min="0" max="100" value="60" />
+          <label for="value" class="label">Value</label>
+        </div>
+        <div>
+          <button id="animate" type="button" class="button"><div></div></button>
+          <label for="animate" class="label">Animate</label>
+        </div>
+        <div>
+          <button id="hide" type="button" class="button"><div></div></button>
+          <label for="hide" class="label">Hide</label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="index.js"></script>
