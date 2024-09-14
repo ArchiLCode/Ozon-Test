@@ -20,8 +20,10 @@
 
 .name {
   position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 16px;
   font-weight: 500;
-  inset: 20px;
 }
 
 .progress {
@@ -55,6 +57,10 @@
   height: 30px;
   text-align: center;
   font-size: 16px;
+}
+
+#value:focus {
+  outline: none;
 }
 
 .label {
@@ -138,4 +144,13 @@ input[type='number']::-webkit-outer-spin-button {
 
 .rotated {
   animation: rotateAnim 1.5s ease-in-out infinite;
+}
+
+input,
+textarea,
+button,
+select,
+label,
+a {
+  -webkit-tap-highlight-color: transparent;
 }
